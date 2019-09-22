@@ -1,0 +1,53 @@
+h3 {
+    display: inline-block;
+    font-size: 36px;
+    margin: 12px;
+    opacity: 0;
+}
+
+svg {
+    height: 480px;
+}
+
+#data, #iot, #ml {
+    height: 120px;
+    opacity: 0;
+}
+
+#plus, #plus1 {
+    height: 60px;
+    margin: 30px 60px;
+    opacity: 0;
+}
+
+h3.reveal, #data.reveal, #iot.reveal, #ml.reveal, #plus.reveal, #plus1.reveal {
+    opacity: 1;
+}
+
+.area, circle, #don, #sell {
+    opacity: 0;
+}
+
+.area.change, circle.change, #don.change, #sell.change {
+    opacity: 1;
+}
+
+.red, .yellow {
+    fill: #000;
+    stroke: #000;
+}
+
+.red.color {
+    fill: #ff0000;
+    stroke: #ff0000;
+}
+
+.red.shade {
+    fill: #ffff00;
+    stroke: #ffff00;
+}
+
+.yellow.color {
+    fill: #ffff00;
+    stroke: #ffff00;
+}

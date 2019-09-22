@@ -1,0 +1,76 @@
+@font-face {
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	src: url(rFont.ttf);
+}
+
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	src: url(font.ttf);
+}
+
+html, body {
+	background-color: #FAFAFA;
+	color: #0A0A0A;
+	font-family: "Roboto";
+	height: 100%;
+	margin: 0px;
+	width: 100%;
+}
+
+body {
+	overflow: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 300;
+}
+
+h1 {
+	font-size: 54px;
+	margin: 0px;
+	padding: 0.67em 0em;
+}
+
+h2 {
+	font-size: 30px;
+	margin: 0px;
+	padding: 0.83em 0em;
+}
+
+.anim, .slide {
+	transition-duration: 0.4s;
+}
+
+.centerizer {
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+
+.centerizer--auto-size {
+	height: auto;
+	width: auto;
+}
+
+.centerizer-content {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.rale {
+	font-family: 'Raleway';
+}
+
+.slide {
+	height: 100%;
+	width: 100%;
+}
+
+.slide--done {
+	opacity: 0;
+}
