@@ -1,0 +1,41 @@
+
+
+
+.details h3,h9,p{
+    text-align: center;
+    letter-spacing: .1vw;
+}
+.outer{
+    position: relative;
+}
+.pro-pic{
+    position: absolute;
+    border-radius: 100%;
+    width: 12vw;
+    height: 12vw;
+    margin: 0 auto;
+    background-color: rgb(143, 101, 221);
+    top:4vw;
+    left: 43.5vw;
+    z-index: 55;
+}
+.details{
+    padding-top: 6vw;
+    
+    width: 65vw;
+    height: 40vw;
+    margin: 0 auto;
+    position: absolute;
+    z-index: 33;
+    top:10vw;
+    left: 17.5vw;
+    background-color: white;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}  
+  .svg {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10vw;
+    /* set height to pixels if you want angle to change with screen width */
+  }

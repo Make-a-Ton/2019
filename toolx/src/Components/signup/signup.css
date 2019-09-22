@@ -1,0 +1,38 @@
+.signupDiv{
+    display: flex ;
+    flex-direction: column ;
+    height:auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.signupCard{
+    height:1004px;
+    width:300px;
+}
+h3{
+
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 2vw;
+    letter-spacing: .1vw;
+
+}
+
+@media only screen and (min-width: 600px) {
+    .signupCard{
+        width:500px;
+    }
+
+    h3{
+
+        flex-direction: row;
+        display: flex;
+        justify-content: center;
+    
+    }
+  }

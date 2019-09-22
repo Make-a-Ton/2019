@@ -1,0 +1,56 @@
+.menu_bar{
+    height: 40px;
+    width: 40px;
+}
+.Layout{
+    width:40px;
+}
+.menu_item{
+    height:50px;
+}
+.ant-menu.ant-menu-dark .ant-menu-item-selected, .ant-menu-submenu-popup.ant-menu-dark .ant-menu-item-selected {
+    background-color: #b3158b;
+}
+.sider{
+    background: #1F2225;
+}
+.logo{
+    padding: 5px;
+    color: white;
+}
+.sider{
+    padding: 0px;
+    background-color: rgb(12, 11, 66);
+
+}
+.trigger{
+    padding-top: 15px;
+    padding-left: 0px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    float: left;
+}
+.header{
+    font-family: 'Consolas';
+    font-size: 25px;
+    padding-left: 20px;
+    background-color: #fff;
+    
+}
+.menu{
+    background-color:#1F2225;
+    height: 40px;
+}
+.title{
+    padding-bottom: 20px;
+    padding-left: 100px;
+    letter-spacing: .1vw;
+    color: rgb(155, 12, 160);
+    font-weight: bolder;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+}
+.devs{
+    color: #02111B;
+}
