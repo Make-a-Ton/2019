@@ -1,0 +1,162 @@
+{
+	"_version": "1.8.0",
+	"sap.app": {
+		"_version": "1.3.0",
+		"id": "com.sap.build.standard.farmUp",
+		"type": "application",
+		"i18n": "i18n/i18n.properties",
+		"applicationVersion": {
+			"version": "1.2.2"
+		},
+		"dataSources": {},
+		"title": "{{appTitle}}",
+		"description": "{{appDescription}}",
+		"ach": "ach",
+		"resources": "resources.json",
+		"sourceTemplate": {
+			"id": "ui5template.basicSAPUI5ApplicationProject",
+			"version": "1.32.0"
+		}
+	},
+	"sap.ui": {
+		"_version": "1.3.0",
+		"technology": "UI5",
+		"icons": {
+			"icon": "",
+			"favIcon": "",
+			"phone": "",
+			"phone@2": "",
+			"tablet": "",
+			"tablet@2": ""
+		},
+		"deviceTypes": {
+			"desktop": true,
+			"tablet": true,
+			"phone": true
+		}
+	},
+	"sap.ui5": {
+		"_version": "1.3.0",
+		"rootView": {
+			"viewName": "generated.app.view.TomatoBuy",
+			"type": "XML"
+		},
+		"dependencies": {
+			"minUI5Version": "1.50.0",
+			"libs": {
+				"sap.ui.core": {},
+				"sap.m": {},
+				"sap.ui.layout": {}
+			}
+		},
+		"contentDensities": {
+			"compact": true,
+			"cozy": true
+		},
+		"models": {
+			"i18n": {
+				"type": "sap.ui.model.resource.ResourceModel",
+				"uri": "i18n/i18n.properties"
+			}
+		},
+		"resources": {
+			"css": []
+		},
+		"routing": {
+			"config": {
+				"routerClass": "sap.m.routing.Router",
+				"viewType": "XML",
+				"viewPath": "com.sap.build.standard.farmUp.view",
+				"controlId": "App",
+				"clearTarget": false,
+				"controlAggregation": "pages",
+				"bypassed": {
+					"target": [
+						"FarmHome"
+					]
+				}
+			},
+			"targets": {
+				"FarmHome": {
+					"controlAggregation": "pages",
+					"viewName": "FarmHome",
+					"viewId": "FarmHome",
+					"viewLevel": 3,
+					"transition": "slide"
+				},
+				"InsideTomato": {
+					"controlAggregation": "pages",
+					"viewName": "InsideTomato",
+					"viewId": "InsideTomato",
+					"viewLevel": 1,
+					"transition": "slide"
+				},
+				"MarketPlace": {
+					"controlAggregation": "pages",
+					"viewName": "MarketPlace",
+					"viewId": "MarketPlace",
+					"viewLevel": 2,
+					"transition": "slide"
+				},
+				"Overview": {
+					"controlAggregation": "pages",
+					"viewName": "Overview",
+					"viewId": "Overview",
+					"viewLevel": 1,
+					"transition": "slide"
+				},
+				"TomatoBuy": {
+					"controlAggregation": "pages",
+					"viewName": "TomatoBuy",
+					"viewId": "TomatoBuy",
+					"viewLevel": 4,
+					"transition": "slide"
+				}
+			},
+			"routes": [
+				{
+					"pattern": "FarmHome/:context:",
+					"name": "FarmHome",
+					"target": [
+						"FarmHome"
+					]
+				},
+				{
+					"pattern": "",
+					"name": "default",
+					"target": [
+						"FarmHome"
+					]
+				},
+				{
+					"pattern": "InsideTomato/:context:",
+					"name": "InsideTomato",
+					"target": [
+						"InsideTomato"
+					]
+				},
+				{
+					"pattern": "MarketPlace/:context:",
+					"name": "MarketPlace",
+					"target": [
+						"MarketPlace"
+					]
+				},
+				{
+					"pattern": "Overview/:context:",
+					"name": "Overview",
+					"target": [
+						"Overview"
+					]
+				},
+				{
+					"pattern": "TomatoBuy/:context:",
+					"name": "TomatoBuy",
+					"target": [
+						"TomatoBuy"
+					]
+				}
+			]
+		}
+	}
+}
