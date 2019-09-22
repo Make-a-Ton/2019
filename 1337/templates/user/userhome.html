@@ -1,0 +1,14 @@
+{{ user }}
+<br>
+{{ user.user_type }}
+<br>
+{% for order in orders %}
+{{ order.waste_type }}
+{% endfor %}
+
+<br>
+<form method="POST" class="post-form">
+  {% csrf_token %}
+  {{ form.as_p }}
+  <button type="submit" class="save btn btn-default">Save</button>
+</form>
