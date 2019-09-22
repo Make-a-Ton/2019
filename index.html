@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charsset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title> Pitch.com </title>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="ritstyle.css"/>
+ 
+<link href='https://fonts.googleapis.com/css?family=Allerta Stencil' rel='stylesheet'>
+
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+<style>
+
+.container-fluid{ margin-left: auto;
+  
+
+  padding-top: 100px;
+  padding-left: 0px;
+ 
+ 
+}
+/*#ever{margin-left: auto;
+margin-right: auto;
+font-family: sans-serif;
+ padding: 30px;
+ border: 50px; 
+}*/
+
+#nav{
+ margin-left: 5px;
+ border-right: 10px solid #00cc44;
+ 
+ padding: 8px;
+} 
+#header{ padding: 0px;
+}
+#pict{
+margin-top:0px;
+	
+}
+#foot{
+clear: both;
+}
+
+
+ body
+          { 
+             margin: 0;
+              padding: 0;
+             font-family: sans-serif;
+              background: #eee;
+           }
+           .ho
+            {
+              text-align: center;
+              line-height: 100px;
+               height: 0px;
+              background-color: #262626;
+               color: white;
+
+             }
+            .ho h1
+            {margin: 0;
+            
+             color: #fff;
+             font-size: 48px !important;
+             
+              
+             }
+             .ho img
+         { 
+         padding: 0px;
+        margin-left: 2px;
+         margin-top: -98px;
+          
+        }
+             .navbar
+              { font-size: 14px !important;
+              margin: 0;
+               padding: 0;
+               z-index: 9999;
+               background-color: #00cc44;
+               color: black;
+               display: flex;
+               line-height: 1.42857143 !important;
+               letter-spacing: 4px;
+               border-radius: 0;
+               
+              }
+              .navbar-nav li a:hover, .navbar-nav li.active a {
+  color: #00cc44 !important;
+  background-color: #262626 !important;
+}
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  color: #fff !important;
+}
+             ul li 
+             {list-style: none;
+              transition: 0.25s;
+               
+              }
+             ul li a 
+              {
+               text-decoration: none;
+               color: black;
+               padding: 20px;
+               display: inline-block;
+               transition: 0.25s;
+                text-align: left;
+}
+          
+              }
+              .menu li a: hover{ 
+               background: #262626;
+               border: 1px solid #262626;
+               }
+              section{
+                 height: 300px;
+                  
+                }
+              .sticky{
+              position: fixed;
+               top: 0;
+               left: 0;
+               width: 100%;
+                    }
+                .diff li
+                   {
+                   border-radius: 100px;
+                   background: none;
+                   border: 2px solid #00cc44;
+                   padding: 0px 10px; 
+                   display: block;
+                   text-align: center;
+                   width: 200px;
+                   outline: none;
+                   transition: 0.25s; 
+
+
+                   }
+                  .diff li:hover{
+                   background: #2ecc71;
+                   }
+                   #logo
+                    {overflow: auto;
+                      float: left;
+                     }
+ .bg-4 {clear: both;
+  background-color: #2f2f2f;
+  color: #ffffff;
+  width: 100%;
+}
+           .lo{
+    font-size: 80px;
+}
+@media screen and (max-width: 768px){
+.col-sm-4{
+text-align: center;
+margin:25px 0;
+}
+}    
+@media screen and(max-width: 768px){
+.lo{
+width: 100%;
+}  
+.nv{
+background: #ddd;
+
+}
+.co
+{ padding-left: 50px;
+  background: #ddd;
+}
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+  }
+
+  .affix + .container-fluid {
+    padding-top: 70px;
+  }
+/* Typography - Sizes */
+.size-xs{ font-size: 14px; }
+.size-s{ font-size: 16px; }
+.size-m{ font-size: 20px; }
+.size-l{ font-size: 30px; }
+.size-xl{ font-size: 36px; }
+.size-xxl{ font-size: 48px; }
+.size-xxxl{ font-size: 60px; }
+.size-xxxxl{ font-size: 72px; }
+
+@media (max-width: 1024px) {
+	.size-l{ font-size: 20px; }
+	.size-xl{ font-size: 26px; }
+	.size-xxl{ font-size: 30px; }
+	.size-xxxl{ font-size: 36px; }
+	.size-xxxxl{ font-size: 40px; }
+}
+
+/* Typography - Sizes 2 */
+.size-12px{ font-size: 12px; }
+.size-13px{ font-size: 13px; }
+.size-14px{ font-size: 14px; }
+.size-15px{ font-size: 15px; }
+.size-16px{ font-size: 16px; }
+.size-18px{ font-size: 18px; }
+.size-20px{ font-size: 20px; }
+.size-21px{ font-size: 21px; }
+.size-24px{ font-size: 24px; }
+.size-27px{ font-size: 27px; }
+.size-30px{ font-size: 30px; }
+.size-36px{ font-size: 36px; }
+.size-40px{ font-size: 40px; }
+.size-46px{ font-size: 46px; }
+.size-60px{ font-size: 60px; }
+.size-86px{ font-size: 86px; }
+
+@media (max-width: 1023px) {
+	.size-12px{ font-size: 12px; }
+	.size-13px{ font-size: 12px; }
+	.size-14px{ font-size: 13px; }
+	.size-15px{ font-size: 14px; }
+	.size-16px{ font-size: 15px; }
+	.size-18px{ font-size: 16px; }
+	.size-20px{ font-size: 18px; }
+	.size-21px{ font-size: 18px; }
+	.size-24px{ font-size: 21px; }
+	.size-27px{ font-size: 23px; }
+	.size-30px{ font-size: 24px; }
+	.size-36px{ font-size: 27px; }
+	.size-40px{ font-size: 28px; }
+	.size-46px{ font-size: 30px; }
+	.size-60px{ font-size: 45px; }
+	.size-86px{ font-size: 50px; }
+}
+@media screen and (max-width: 768px){
+.navbar-left{
+align-items: center;
+font-size: default;
+}
+
+
+
+
+</style>
+ <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script type="text/javascript">
+               $(window).scroll(function(){
+               if($(this).scrollTop()>100){
+                      $('.navbar').addClass("sticky");
+                    }
+                else
+                  {
+                      $('.navbar').removeClass("sticky");
+                  }
+                   })    
+                  $(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+
+  // Make sure this.hash has a value before overriding default behavior
+  if (this.hash !== "") {
+
+    // Prevent default anchor click behavior
+    event.preventDefault();
+
+    // Store hash
+    var hash = this.hash;
+
+    // Using jQuery's animate() method to add smooth page scroll
+    // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+    $('html, body').animate({
+      scrollTop: $(hash).offset().top
+    }, 900, function(){
+
+      // Add hash (#) to URL when done scrolling (default click behavior)
+      window.location.hash = hash;
+      });
+    } // End if
+  });
+})
+
+          </script>
+</head>
+
+<body>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+ <div class="container col-xl-15 text-right" style="background-color:#262626 ;color:#fff; font-size:30px">
+
+  <!--<h1 "text-align:left;">Pitch.com</h1>-->
+<h1 class="col-12 text-left">  Pitch.com</h1>
+ 
+</div>
+ <nav class="navbar navbar-default">
+          <div class="container">
+         <div class="navbar-header">
+          
+           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu" data-spy="affix" data-offset-top="197">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+	    </button>
+           <h4 class="navbar-left" style="font-family:Allerta Stencil; font-size:30px; color:#34495e;" href="#"> Let yourself grow </h4>
+            </div>
+          <div class="collapse navbar-collapse" id="menu">
+               <ul class="nav navbar-nav navbar-right">
+                <li> <a href='#home'> home </a> </li>
+                <li> <a href='#about'> about</a> </li>
+                <li> <a href='#site'> login</a> </li>
+                 <!--li class="dropdown">
+                    <a href='down-toggle' data-toggle="dropdown" href="#"> group 9
+                      <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#footer">Names</a></li>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#contact">Contact</a></li> 
+          </ul>
+        </li-->
+        <li> <a href="#" 
+                       class="glyphicon glyphicon-search"></span> </a> </li>
+          
+           </ul>
+            </div>
+       </div>
+</nav>
+          
+
+<div id="about" class="container co ">
+
+<div class="col-sm-4">
+  <span class="glyphicon glyphicon-user lo"></span>
+</div>
+<div class="col-sm-8" style="font-family: Lato;">
+<h2> <b>About this website</b> </h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tellus enim, viverra faucibus dui eu, lobortis dignissim metus. Phasellus eget metus egestas, placerat dolor vel, iaculis nisi. Suspendisse aliquam ex tempus ipsum volutpat rhoncus. Aenean at tincidunt urna. Cras nec molestie tortor. Aenean quis fermentum magna. In imperdiet mauris purus, non molestie neque suscipit sed. 
+Cras laoreet magna ipsum, eget tincidunt eros ullamcorper in. Ut eu pretium tellus. Pellentesque semper fermentum lobortis. Vestibulum mi mi, posuere quis sodales id, sagittis non magna. Duis rutrum vel leo quis aliquam. Phasellus vulputate, lectus at pharetra auctor, neque tellus euismod nisi, in sodales quam libero sed velit. Praesent nec bibendum dui. In dolor nisi, lobortis at turpis eget, lacinia tempus enim. Cras hendrerit arcu vitae augue elementum vulputate. Curabitur dapibus, orci vel commodo egestas, arcu tellus pulvinar purus, in consequat augue nisl sed ipsum. Quisque facilisis, arcu vel tempus pharetra, erat orci ultricies ante, in tempor mauris odio eu nulla. Vivamus blandit ligula vitae sodales cursus. Integer mi risus, dapibus a sem vel, lacinia congue enim. Curabitur semper libero lorem, eget facilisis dui ultrices et. Sed maximus vulputate tristique. <br>
+</p>
+</div>
+</div>
+
+<div id="site" class="container nv">
+<div class="col-sm-4 ">
+<!--span class="glyphicon glyphicon-map-marker lo"></span>
+</div-->
+<div class="col-sm-8" style="font-family: Lato;">
+<h2> <b>Login Here</b> </h2>
+<p><a href="login.html"> Contributer login... </a></p><br>
+<p><a href="login2.html">Investor login... </a></p><br>
+<p><a href="signup.html">New here? sign up </a></p><br>
+</div>
+</div>
+<a href="#demo" data-toggle="collapse">
+        <img src="img.jpg" class="img-responsive"  alt="Random Name" width=20%>
+      </a>
+     
+
+
+<section><div id="foot">
+ &copy Ultron 2019
+</div>
+ </section>
+
+ <footer class="container bg-4 text-center" id="footer">
+  <p>website made by<br>Ultron<br>
+  <p id="contact"> contact: shrutisantosh99@yahoo.com </p> 
+</footer> 
+</body>
+
+</html>
+
