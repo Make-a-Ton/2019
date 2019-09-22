@@ -1,0 +1,11 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+
+div.donor{
+    width: 30%;
+    font-family: sans-serif;
+}
