@@ -1,0 +1,21 @@
+#face {
+    height: 120px;
+}
+
+#rain, #rain1 {
+    height: 120px;
+    transform: translateX(100vw);
+}
+
+#rain.slideleft, #rain1.slideleft {
+    transform: translateX(0);
+}
+
+#tshirt {
+    height: 120px;
+    transform: translateY(100vh);
+}
+
+#tshirt.slideup {
+    transform: translateY(0);
+}

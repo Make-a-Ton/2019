@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "794862693659",
+    "firebase_url": "https://baarish-cf1d5.firebaseio.com",
+    "project_id": "baarish-cf1d5",
+    "storage_bucket": "baarish-cf1d5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:794862693659:android:efd4fcae36c75957feb7be",
+        "android_client_info": {
+          "package_name": "com.example.baarish"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "794862693659-ih8v55ekcjatoi89nrp2itpprddkjudr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.baarish",
+            "certificate_hash": "f5f3a5694e4cea5bd614e87562fdded98c122f37"
+          }
+        },
+        {
+          "client_id": "794862693659-v07sgo4juid7vfpqbnju9eoa8492s0re.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdKKhtaCQCldgOLQIO4jtHOIi0e5A62qA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "794862693659-v07sgo4juid7vfpqbnju9eoa8492s0re.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
