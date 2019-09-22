@@ -1,4 +1,7 @@
 # barish
+
+# [Original Repo](https://github.com/jagannathbhat/barish)
+
 barish is a system that alerts people if it is going to rain soon to help them make decisions in their day-to-day lives.
 
 This project was built as part of a 24 hour hackathon called MAKE-A-TON at CUSAT, Kochi, Kerala, India.
