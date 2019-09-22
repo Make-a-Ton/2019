@@ -1,2 +1,0 @@
-https://standard.build.me/prototype-editors/api/public/v2/prototypes/5d86cce0b07bc70163a49d02/snapshots/latest/artifacts/index.html
-

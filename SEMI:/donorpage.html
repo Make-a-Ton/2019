@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Happy Fridge</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="donor.css" rel="stylesheet">
+   
+</head>
+
+<body>
+
+    <!-- Start your project here-->
+<!-- Default form contact -->
+<div class="container">
+    <div class="donor m-5">
+        <p class="h4 mb-4">Donate Food</p>
+
+        <!-- Name -->
+        <input type="text" id="FormName" class="form-control mb-5" placeholder="Name">
+
+        <!-- Email -->
+        <input type="email" id="FormEmail" class="form-control mb-5" placeholder="E-mail">
+
+        <!--Hotel name-->
+        <input type="text" id="FormHname" class="form-control mb-5" placeholder="Hotel Name">
+
+        <!-- landmark-->
+        <input type="text" id="Formlandmark" class="form-control mb-5" placeholder="Landmark">
+
+        <!--Weight of food-->
+        <input type="number" id="formweight" class="form-control mb-5" placeholder="weight of food(in KG)">
+
+        <!-- Copy -->
+        <div class="custom-control custom-checkbox mb-4">
+            <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy">
+            <label class="custom-control-label" for="defaultContactFormCopy">Send me a copy of this message</label>
+        </div>
+
+        <!-- Send button -->
+        <!-- <button onclick="p()">Click me</button>  -->
+        <button class="btn btn-info btn-block" type="button" onclick="p();">Send</button>
+    </div>
+    <div class="donor m-5 ml-5" id="data"></div>
+
+    </div>
+    <!-- Default form contact -->
+    <!-- Start your project here-->
+
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+</body>
+<script>
+        newData = document.getElementById("data");
+        var total='';
+        function p(){
+                        var p=document.getElementById('FormName').value;
+                        var q=document.getElementById('FormEmail').value;
+                        var r=document.getElementById('FormHname').value;
+                        var s=document.getElementById('formweight').value;
+                        var strg = `<p> Name :` +p+`<br>Email : `+q+`<br>Hotel : `+r+`<br>Weight :`+s+`</p>`;
+                        newData.innerHTML = newData.innerHTML + strg
+                        
+        }
+  </script>
+</html>
